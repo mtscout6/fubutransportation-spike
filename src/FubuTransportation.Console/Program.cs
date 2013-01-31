@@ -1,19 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.Routing;
-using FubuCore;
-using FubuCore.Binding;
 using FubuMVC.Core;
-using FubuMVC.Core.Registration;
-using FubuMVC.Core.Runtime;
 using FubuMVC.StructureMap;
 using Rhino.ServiceBus;
 using Rhino.ServiceBus.Impl;
 using Rhino.ServiceBus.MessageModules;
 using StructureMap;
 
-namespace FubuTransportation
+namespace FubuTransportation.Console
 {
     class Program
     {
@@ -34,7 +27,7 @@ namespace FubuTransportation
             bus.Start();
             bus.Send(inputMessage);
 
-            Console.ReadKey();
+            System.Console.ReadKey();
         }
     }
 }
