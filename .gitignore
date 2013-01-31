@@ -13,3 +13,4 @@ src/FubuMVC.*.ReSharper
 *.DS_Store
 *.swp
 *.dotCover
+CommonAssemblyInfo.cs

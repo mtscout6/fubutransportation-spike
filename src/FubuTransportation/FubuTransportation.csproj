@@ -90,6 +90,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\CommonAssemblyInfo.cs">
+      <Link>Properties\CommonAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="FubuTransportationMessageModule.cs" />
     <Compile Include="TestConsumer.cs" />
     <Compile Include="TestSagaConsumer.cs" />
@@ -99,7 +102,6 @@
     <Compile Include="NotifyOutputBehavior.cs" />
     <Compile Include="NotifyOutputConvention.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SagaFindByIdBehavior.cs" />
     <Compile Include="SagaFindByIdConvention.cs" />
     <Compile Include="SagaInformation.cs" />

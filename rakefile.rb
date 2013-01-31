@@ -86,7 +86,7 @@ def waitfor(&block)
 end
 
 desc "Compiles the app"
-task :compile => %w{restore_if_missing clean version docs:bottle} do
+task :compile => %w{restore_if_missing clean version} do
   MSBuildRunner.compile :compilemode => COMPILE_TARGET, :solutionfile => 'src/FubuTransportation.sln', :clrversion => CLR_TOOLS_VERSION
 
   # TODO: Update for this project
