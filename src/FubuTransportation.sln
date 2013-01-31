@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuTransportation", "FubuTransportation.csproj", "{D31BC680-648C-4CE0-8878-ED385627AEF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FubuTransportation", "FubuTransportation\FubuTransportation.csproj", "{D31BC680-648C-4CE0-8878-ED385627AEF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
