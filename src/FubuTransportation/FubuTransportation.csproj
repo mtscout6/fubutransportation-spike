@@ -36,46 +36,46 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bottles">
-      <HintPath>packages\Bottles.0.9.1.191\lib\Bottles.dll</HintPath>
+      <HintPath>..\packages\Bottles.0.9.1.191\lib\Bottles.dll</HintPath>
     </Reference>
     <Reference Include="Esent.Interop">
-      <HintPath>packages\Rhino.ServiceBus.References.2.3.0.0\lib\Esent.Interop.dll</HintPath>
+      <HintPath>..\packages\Rhino.ServiceBus.References.2.3.0.0\lib\Esent.Interop.dll</HintPath>
     </Reference>
     <Reference Include="FubuCore">
-      <HintPath>packages\FubuCore.0.9.4.112\lib\FubuCore.dll</HintPath>
+      <HintPath>..\packages\FubuCore.0.9.4.112\lib\FubuCore.dll</HintPath>
     </Reference>
     <Reference Include="FubuLocalization">
-      <HintPath>packages\FubuLocalization.0.9.4.112\lib\FubuLocalization.dll</HintPath>
+      <HintPath>..\packages\FubuLocalization.0.9.4.112\lib\FubuLocalization.dll</HintPath>
     </Reference>
     <Reference Include="FubuMVC.Core">
-      <HintPath>packages\FubuMVC.References.0.9.3.730\lib\net40\FubuMVC.Core.dll</HintPath>
+      <HintPath>..\packages\FubuMVC.References.0.9.3.730\lib\net40\FubuMVC.Core.dll</HintPath>
     </Reference>
     <Reference Include="FubuMVC.StructureMap">
-      <HintPath>packages\FubuMVC.References.0.9.3.730\lib\net40\FubuMVC.StructureMap.dll</HintPath>
+      <HintPath>..\packages\FubuMVC.References.0.9.3.730\lib\net40\FubuMVC.StructureMap.dll</HintPath>
     </Reference>
     <Reference Include="HtmlTags">
-      <HintPath>packages\HtmlTags.1.0.0.54\lib\4.0\HtmlTags.dll</HintPath>
+      <HintPath>..\packages\HtmlTags.1.0.0.54\lib\4.0\HtmlTags.dll</HintPath>
     </Reference>
     <Reference Include="log4net">
-      <HintPath>packages\log4net.1.2.11\lib\net40-full\log4net.dll</HintPath>
+      <HintPath>..\packages\log4net.1.2.11\lib\net40-full\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation">
-      <HintPath>packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <HintPath>..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
     <Reference Include="Rhino.PersistentHashTable">
-      <HintPath>packages\Rhino.PersistentHashTable.1.7.0.0\lib\4.0\Rhino.PersistentHashTable.dll</HintPath>
+      <HintPath>..\packages\Rhino.PersistentHashTable.1.7.0.0\lib\4.0\Rhino.PersistentHashTable.dll</HintPath>
     </Reference>
     <Reference Include="Rhino.Queues">
-      <HintPath>packages\Rhino.Queues.1.4.2.0\lib\4.0\Rhino.Queues.dll</HintPath>
+      <HintPath>..\packages\Rhino.Queues.1.4.2.0\lib\4.0\Rhino.Queues.dll</HintPath>
     </Reference>
     <Reference Include="Rhino.ServiceBus">
-      <HintPath>packages\Rhino.ServiceBus.2.3.0.0\lib\4.0\Rhino.ServiceBus.dll</HintPath>
+      <HintPath>..\packages\Rhino.ServiceBus.2.3.0.0\lib\4.0\Rhino.ServiceBus.dll</HintPath>
     </Reference>
     <Reference Include="Rhino.ServiceBus.StructureMap">
-      <HintPath>packages\Rhino.ServiceBus.StructureMap.2.3.0.0\lib\4.0\Rhino.ServiceBus.StructureMap.dll</HintPath>
+      <HintPath>..\packages\Rhino.ServiceBus.StructureMap.2.3.0.0\lib\4.0\Rhino.ServiceBus.StructureMap.dll</HintPath>
     </Reference>
     <Reference Include="StructureMap">
-      <HintPath>packages\structuremap.2.6.3\lib\StructureMap.dll</HintPath>
+      <HintPath>..\packages\structuremap.2.6.3\lib\StructureMap.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -86,7 +86,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Wintellect.Threading">
-      <HintPath>packages\PowerThreading.20101026.0\lib\net20\Wintellect.Threading.dll</HintPath>
+      <HintPath>..\packages\PowerThreading.20101026.0\lib\net20\Wintellect.Threading.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
